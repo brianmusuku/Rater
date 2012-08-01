@@ -1,0 +1,27 @@
+database : db_one, user: root password: password
+updator:
+updateid, scale, time, user_name, description, entity
+
+
+
+***********************************************
+***********************************************
+********MYSQL CODE**************************
+***********************************************
+***********************************************
+
+CREATE TABLE `db_one`.`updator` (
+  `updateid` DOUBLE  NOT NULL AUTO_INCREMENT,
+  `scale` INTEGER  NOT NULL,
+  `time` VARCHAR(30)  NOT NULL,
+  `user_name` VARCHAR(30)  NOT NULL,
+  `description` VARCHAR(240)  NOT NULL,
+  `entity` VARCHAR(30)  NOT NULL,
+  PRIMARY KEY (`updateid`)
+)
+ENGINE = InnoDB;
+
+**************************************************
+
+
+
